@@ -1,0 +1,110 @@
+.Top{
+  background-color: #ebd4d4;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.Mid{
+  background-color: #fff0f0;
+}
+.Bot{
+  background-color: #ebd4d4;
+  padding-bottom: 50px;
+}
+.Top-cloud {
+  border-radius: 30%;
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.Bot-cloud {
+  border-radius: 30%;
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.Jercydy-profile{
+  border-radius: 100%;
+  width: 10%;
+  margin-top: 100px;
+}
+h2{
+  font-family: Biotif-Bold;
+  font-weight: 100;
+  font-size: 350%;
+}
+h1{
+  width: 50%;
+  color: #232320;
+  margin: 0 auto;
+  font-family: Recoleta;
+  font-weight: 100;
+  text-align: center;
+}
+.jercydy_P{
+  font-family: Biotif;
+  font-weight: 100;
+  font-size: 21px;
+}
+p{
+  font-family: Biotif;
+  width: 40%;
+  margin: 0 auto;
+  font-weight: 100;
+  font-size: 21px;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+hr{
+  border: none;
+  border-top: 5px dotted #f3bad6;
+  width: 5%;
+}
+@media (max-width:600px) {
+  .mountain {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width:1350px) {
+  .Top-cloud {
+    visibility: hidden;
+  }
+}
+@media (max-width:1350px) {
+  .Bot-cloud {
+    visibility: hidden;
+  }
+}
+@media (min-width:1000px) {
+  h1 {
+    font-size: 4.5em
+  }
+}
+@media (min-width:1600px) {
+  h1 {
+    font-size: 6.5em;
+    letter-spacing: -2px
+  }
+}
+@font-face {
+  font-family: 'Recoleta';
+  src: url(font/Recoleta-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Biotif';
+  src: url(font/Biotif-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Biotif-Bold';
+  src: url(font/Biotif-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
